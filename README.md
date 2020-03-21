@@ -12,7 +12,7 @@ https://tianchi.aliyun.com/competition/entrance/231784/introduction
 
 详细的个人笔记见notebook中批注，以下是每个task的总结👇
 
-#### Task01 - [赛题理解](nbs/Task1 赛题理解.ipynb) 🍦
+#### Task01 - [赛题理解](/nbs/Task1-赛题理解.ipynb) 🍦
 
 - 分类评价指标 - accuracy / precision / recall / f1-score / AUC
 - 回归评价指标 - MAE / MSE / MAPE / RMSE / R2
