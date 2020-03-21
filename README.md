@@ -22,11 +22,11 @@ https://tianchi.aliyun.com/competition/entrance/231784/introduction
 - 相关包 - pandas / numpy / scipy / matplotlib / seaborn / missingno-用于缺失值可视化 / pandas_profiling
 - 载入数据 - head() / tail() / shape 
 - 数据总览 - describe() 熟悉数据统计量 / info() 熟悉数据类型
-- 缺失和异常 - isnull().sum() / msno.matrix() / msno.bar() / value_counts() / replace() / 特征严重偏斜的处理
-- 预测值分布 - sns.distplot() 可用scipy拟合参数分布 / skew() 偏度 / kurt() 峰度 /  数据呈偏态分布可用log变换
-- 数字特征 - corr() 相关性分析(默认Pearson) / heatmap() / facetgrids() / pairplot() 多图可视化分布和相互关系
-- 类别特征 - nunique() + value_counts() 查看变量分布 / boxplot() / violinplot / barplot() / countplot() 可视化
-- 数据报告 - pandas_profiling 生成数据报告
+- 缺失和异常 - isnull().sum() / msno.matrix() / msno.bar() / value_counts() / replace() / 类别特征出现严重偏斜的处理
+- 预测值分布 - sns.distplot() 可用scipy库fit拟合参数分布 / skew() 偏度 / kurt() 峰度 /  数据呈偏态分布可用log变换
+- 数字特征 - corr() 相关性分析(默认Pearson) / heatmap() / facetgrids() / pairplot() / 多图可视化分布和相互关系
+- 类别特征 - nunique() + value_counts() 查看类别变量分布 / boxplot() / violinplot / barplot() / countplot() 可视化
+- 数据报告 - pandas_profiling 生成数据报告 (简单全面，但速度较慢)
 - pandas查漏补缺 - append() / plot() / sample() / melt() / DF['col'].astype('category').cat.add_categories() 
 
 ### Task03：数据的特征工程
