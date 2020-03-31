@@ -41,7 +41,46 @@ https://tianchi.aliyun.com/competition/entrance/231784/introduction
 - pandas查漏补缺 - quantile() / to_datatime() / groupby() 后的 for 遍历 / merge() / cut() 
 
 ### Task04 - 建模与调参
+
+#### 线性模型
+
+- 线性模型对于特征的要求 -  数据项误差符合正态分布
+- 处理长尾分布 - log(x + 1)
+- 交叉验证 - `cross_val_score`，如k折交叉验证，每折数据都做过一次验证集
+- 时间特征对于模型的影响 - 基于真实业务的模型在时间的顺序上必须正确
+- 学习曲线和验证曲线 - **learing_curve**样本大小与准确率的关系 / **validation_curve：**模型参数与准确率之间的关系
+- 嵌入式特征选择 - 线性模型 + L1正则 = Ridge 岭回归 / 线性模型 + L2正则 = Lasso回归 / 决策树通过信息熵选择分裂节点
+
+#### 非线性模型
+
+- 常用非线性模型 - 支持向量机 / 决策树 / 随机森林 / 梯度提升回归 / 多层感知机 / XGBoost / Lightgbm
+- 模型调参 - 贪心调参 / Grid Search调参 / 贝叶斯调参
+
 ### Task05：模型结果融合 
+
+### Python查漏补缺
+
+#### pandas 🐼
+
+- `memory_usage(deep=True)`返回每列的内存占用(Bytes)
+- `sort_values("col")`按某一列排序
+
+#### numpy 🧩
+
+- `np.iinfo(np.int8)`, 查看数据类型的信息，如查看最大最小值`np.iinfo(np.int8).min`
+- `np.percentile(array, 75)`, `np.quantile(a, 0.75)`分位数计算， 注意二者不同点
+- `np.nan_to_num()`，把nan转换成0，inf转换成有限大小的数
+
+#### sklearn 📚
+
+- 线性模型`model = LinearRegression()`, `model.coef_`查看权重，`model.intercept_`查看截距
+- `cross_val_score()`用于交叉验证
+- `GridSearchCV()`用于网格调参
+- `BayesianOptimization()`用于贝叶斯调参
+
+#### matplotlib 🎨
+
+- `axes.fill_between()`填充两条线之间的区域
 
 ## 参考资料
 
