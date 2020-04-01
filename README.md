@@ -40,9 +40,9 @@ https://tianchi.aliyun.com/competition/entrance/231784/introduction
 - 降维 - PCA / LDA / ICA / 特征筛选也是一种降维
 - pandas查漏补缺 - quantile() / to_datatime() / groupby() 后的 for 遍历 / merge() / cut() 
 
-### Task04 - 建模与调参
+### Task04 - [建模与调参](/nbs/Task4-建模调参.ipynb)🍦
 
-#### 线性模型
+#### - 线性模型
 
 - 线性模型对于特征的要求 -  数据项误差符合正态分布
 - 处理长尾分布 - log(x + 1)
@@ -51,7 +51,7 @@ https://tianchi.aliyun.com/competition/entrance/231784/introduction
 - 学习曲线和验证曲线 - **learing_curve**样本大小与准确率的关系 / **validation_curve：**模型参数与准确率之间的关系
 - 嵌入式特征选择 - 线性模型 + L1正则 = Ridge 岭回归 / 线性模型 + L2正则 = Lasso回归 / 决策树通过信息熵选择分裂节点
 
-#### 非线性模型
+#### - 非线性模型
 
 - 常用非线性模型 - 支持向量机 / 决策树 / 随机森林 / 梯度提升回归 / 多层感知机 / XGBoost / Lightgbm
 - 模型调参 - 贪心调参 / Grid Search调参 / 贝叶斯调参
