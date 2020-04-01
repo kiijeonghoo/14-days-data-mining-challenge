@@ -40,7 +40,7 @@ https://tianchi.aliyun.com/competition/entrance/231784/introduction
 - 降维 - PCA / LDA / ICA / 特征筛选也是一种降维
 - pandas查漏补缺 - quantile() / to_datatime() / groupby() 后的 for 遍历 / merge() / cut() 
 
-### Task04 - [建模与调参](/nbs/Task4-建模调参.ipynb)🍦
+### Task04 - [建模与调参](/nbs/Task4-建模调参.ipynb) 🍦
 
 #### - 线性模型
 
