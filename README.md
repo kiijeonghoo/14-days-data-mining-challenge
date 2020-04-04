@@ -8,9 +8,9 @@ https://tianchi.aliyun.com/competition/entrance/231784/introduction
 
 **Star⭐ me if you find useful🤣**
 
-## 学习内容与进度
+## 学习内容与进度 完结撒花 🎉
 
-详细的个人笔记和注解见notebook中批注，以下是每个task的总结👇
+详细的个人笔记和注解见[notebook](/nbs/)中批注，以下是每个task的总结👇
 
 ### Task00 - [**Baseline**](/nbs/Task0-Baseline.ipynb) 🍦
 
@@ -68,9 +68,7 @@ https://tianchi.aliyun.com/competition/entrance/231784/introduction
 #### - 简单加权融合
 
 - 回归 (分类概率) - 平均法 (多个学习器输出结果求均值) / 简单加权平均 / 算数平均 / 几何平均 / 中位数
-
 - 分类 - 投票法 (选择多个学习器输出最多的类) / 硬投票 (不区分模型结果相对重要性, 得票数最多的类为最终结果) / 软投票 (为不同模型设置不同权重, 区别模型的重要性) / 使用`VotingClassifier`
-
 - 综合 - 排序融合 / log融合
 
 
@@ -115,12 +113,21 @@ https://tianchi.aliyun.com/competition/entrance/231784/introduction
 - `BayesianOptimization()`用于贝叶斯调参
 - `VotingClassifier()`用于模型融合的投票法, 参数`voting`可选择 hard 硬投票 soft 软投票
 - `KFold()`与`StratifiedKFold()`区别：后者是分层采样, 确保train, test中各类别样本的比例与原始数据集中相同
-- `predict()`与`predict_proba`区别：前者返回预测结果, 标签值, 后者返回样本在各个标签值上的概率
+- `predict()`与`predict_proba()`区别：前者返回预测结果, 标签值, 后者返回样本在各个标签值上的概率
 
 #### matplotlib 🎨
 
 - `axes.fill_between()`填充两条线之间的区域
 - [`gridspec.GridSpec()`](https://matplotlib.org/tutorials/intermediate/gridspec.html) 定义子图, 实现子图跨越分区
+
+## 直播汇总 & 答疑汇总
+
+- [Baseline + Task1- 赛题理解](https://tianchi.aliyun.com/course/video?liveId=41143) ([ppt](/ppt/天池直播-Baseline及赛题理解.pdf))
+- [Task2 - EDA](https://tianchi.aliyun.com/course/video?liveId=41143) ([ppt](/ppt/天池直播-EDA.pdf))
+- [Task3 - 特征工程](https://tianchi.aliyun.com/course/video?liveId=41145) ([ppt](/ppt/天池直播-特征工程.pdf))
+- [Task4 - 建模调参](https://tianchi.aliyun.com/course/video?liveId=41146) ([ppt](/ppt/天池直播-模型构建及预测.pdf))
+- [Task5 - 模型融合](https://tianchi.aliyun.com/course/live?liveId=41149) (ppt) #TODO
+- [石墨答疑汇总](https://shimo.im/docs/HgcgKvDQTQx3gCWd)
 
 ## 参考资料
 
@@ -128,10 +135,5 @@ Datawhale开源学习资料：https://github.com/datawhalechina/team-learning
 
 天池比赛论坛：https://tianchi.aliyun.com/competition/entrance/231784/forum
 
-1. 第一项：
-    - 第一项嵌套的第一个元素
-    - 第一项嵌套的第二个元素
-2. 第二项：
-    - 第二项嵌套的第一个元素
-    - 第二项嵌套的第二个元素
+
 
