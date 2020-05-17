@@ -8,6 +8,10 @@ https://tianchi.aliyun.com/competition/entrance/231784/introduction
 
 **Star⭐ me if you find useful🤣**
 
+## 优秀学习者证书 👏
+
+<img src="优秀学习者证书.jpg" style="zoom:5%;" />
+
 ## 学习内容与进度 完结撒花 🎉
 
 详细的个人笔记和注解见[notebook](/nbs/)中批注，以下是每个task的总结👇
@@ -126,7 +130,7 @@ https://tianchi.aliyun.com/competition/entrance/231784/introduction
 - [Task2 - EDA](https://tianchi.aliyun.com/course/video?liveId=41143) ([ppt](/ppt/天池直播-EDA.pdf))
 - [Task3 - 特征工程](https://tianchi.aliyun.com/course/video?liveId=41145) ([ppt](/ppt/天池直播-特征工程.pdf))
 - [Task4 - 建模调参](https://tianchi.aliyun.com/course/video?liveId=41146) ([ppt](/ppt/天池直播-模型构建及预测.pdf))
-- [Task5 - 模型融合](https://tianchi.aliyun.com/course/live?liveId=41149) (ppt) #TODO
+- [Task5 - 模型融合](https://tianchi.aliyun.com/course/live?liveId=41149) (ppt) 
 - [石墨答疑汇总](https://shimo.im/docs/HgcgKvDQTQx3gCWd)
 
 ## 参考资料
